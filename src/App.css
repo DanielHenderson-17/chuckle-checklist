@@ -171,14 +171,14 @@ h2 {
 
 /** Class for an individual <li>*/
 .joke-list-item {
-  border: none;
-  border-bottom: 1px solid hsla(0, 0%, 50%, 0.5);
-  margin: 5px 0;
-  padding: 5px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  border: none!important;
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.5)!important;
+  margin: 5px 0!important;
+  padding: 5px!important;
+  box-sizing: border-box!important;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: space-between!important;
 
   /** Class for the joke text. Add it to a <p> element*/
   .joke-list-item-text {

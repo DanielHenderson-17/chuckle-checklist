@@ -19,4 +19,18 @@ export const postNewJoke = (newJoke) => {
     }).then((response) => response.json());
   };
   
-  
+  export const updateJokeStatus = (joke) => {
+    return fetch(`http://localhost:8088/jokes/${joke.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(joke),
+    }).then((response) => response.json());
+  };
+
+  export const deleteJoke = (jokeId) => {
+    return fetch(`http://localhost:8088/jokes/${jokeId}`, {
+      method: "DELETE",
+    }).then((response) => response.json());
+  };
