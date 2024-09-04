@@ -183,7 +183,7 @@ h2 {
   /** Class for the joke text. Add it to a <p> element*/
   .joke-list-item-text {
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 1rem;
     flex-basis: 75%;
   }
 
